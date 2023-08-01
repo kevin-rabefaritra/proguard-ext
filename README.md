@@ -1,22 +1,26 @@
 ProGuard, Java bytecode optimizer and obfuscator
 ================================================
 
+> **Discontinued**.
+> In 2019, Google introduced R8 / D8 as the default obsfuscation tool.
+> Compared to Proguard, R8 offers Kotlin code support and a faster processing time. Then I got my Master degree and went to explore other stuff.
+
 This distribution contains the following directories:
 
-- bin          : simple wrapper scripts to run ProGuard, its GUI, and ReTrace
-- lib          : the main jars, compiled and ready to use with "java -jar ...."
-- examples     : some example configuration files and projects
+- `bin`          : simple wrapper scripts to run ProGuard, its GUI, and ReTrace
+- `lib`          : the main jars, compiled and ready to use with "java -jar ...."
+- `examples`     : some example configuration files and projects
 
 It also contains the source code and build scripts:
 
-- core         : the ProGuard core
-- retrace      : the ReTrace tool
-- gui          : the ProGuard/ReTrace GUI
-- gradle       : the ProGuard Gradle plugin
-- ant          : the ProGuard Ant plugin
-- wtk          : the ProGuard WTK plugin
-- annotations  : the optional annotations to configure ProGuard
-- buildscripts : various alternative build scripts
+- `core`         : the ProGuard core
+- `retrace`      : the ReTrace tool
+- `gui`          : the ProGuard/ReTrace GUI
+- `gradle`       : the ProGuard Gradle plugin
+- `ant`          : the ProGuard Ant plugin
+- `wtk`          : the ProGuard WTK plugin
+- `annotations`  : the optional annotations to configure ProGuard
+- `buildscripts` : various alternative build scripts
 
 The best place to start is the [on-line manual](https://www.guardsquare.com/proguard).
 
